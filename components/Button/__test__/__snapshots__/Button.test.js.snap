@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should find the button via Text 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#e85d04",
+        "borderRadius": 8,
+        "bottom": "6%",
+        "display": "flex",
+        "height": "5%",
+        "justifyContent": "center",
+        "left": "10%",
+        "position": "absolute",
+        "width": "80%",
+        "zIndex": 10,
+      },
+    ]
+  }
+>
+  <Text
+    accessibilityLabel="Press me"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    Book Ticket
+  </Text>
+</View>
+`;

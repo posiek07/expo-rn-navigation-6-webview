@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should render and match snapshot 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "https://picsum.photos/200",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "height": "30%",
+        "width": "100%",
+      },
+    ]
+  }
+/>
+`;
