@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should find the button via Text 1`] = `
+exports[`should render and match snapshot 1`] = `
 <View
   style={
     Array [
@@ -20,8 +20,7 @@ exports[`should find the button via Text 1`] = `
   }
 >
   <Text
-    accessibilityLabel="Press me"
-    onPress={[Function]}
+    accessibilityLabel="Book Ticket"
     style={
       Array [
         Object {

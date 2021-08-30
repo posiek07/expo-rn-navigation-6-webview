@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Button from '../../components/Button/Button';
 import Logo from '../../components/Logo/Logo';
 import Webview from '../../components/Webview/Webview';
+import {Linking} from 'react-native';
 
 const StyledSafeAreaView = styled.SafeAreaView`
   background-color: white;
@@ -18,7 +19,7 @@ const EventDetailsScreen = props => {
     <StyledSafeAreaView>
       <Logo logo={logo} />
       <Webview html={html} />
-      <Button url={url} />
+      <Button onPress={() => Linking.openURL(url)} />
     </StyledSafeAreaView>
   );
 };
