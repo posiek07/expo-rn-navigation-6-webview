@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Card should render and match snapshot 1`] = `
+exports[`should render and match snapshot 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -46,6 +46,7 @@ exports[`Card should render and match snapshot 1`] = `
       }
     >
       <Image
+        accessibilityLabel="image: Evolving Design Systems"
         alt="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43694293%2F200512495655%2F1%2Foriginal.jpg?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=ce2f9f9b42ef9513349a34043ea3001a"
         source={
           Object {
