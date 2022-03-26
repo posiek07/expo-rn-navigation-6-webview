@@ -19,24 +19,24 @@ const Card = ({item}) => {
     <TouchableOpacity
       onPress={() =>
         navigation.navigate('EventDetailsScreen', {
-          event: item,
+          id: item.id,
         })
       }>
       <StyledCard>
         <StyledCardImageWrapper>
           <StyledCardImage
-            accessibilityLabel={'image: ' + item.name.text}
-            source={{uri: item.logo.url}}
-            alt={item.logo.url}
+            accessibilityLabel={'image: ' + item.title}
+            source={{uri: item.logoUrl}}
+            alt={item.logoUrl}
           />
         </StyledCardImageWrapper>
         <StyledTextWrapper>
           <StyledDateText numberOfLines={1}>
-            {moment(item.start.utc).tz(item.start.timezone).format('LLLL z')}
+            {moment(item.startDate).format('LLLL z')}
           </StyledDateText>
-          <StyledTitleText numberOfLines={2}>{item.name.text}</StyledTitleText>
+          <StyledTitleText numberOfLines={2}>{item.title}</StyledTitleText>
           <StyledDescriptionText numberOfLines={1}>
-            {item.description.text}
+            {item.descriptionText}
           </StyledDescriptionText>
         </StyledTextWrapper>
       </StyledCard>
