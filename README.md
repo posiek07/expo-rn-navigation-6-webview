@@ -14,7 +14,7 @@ React Native app displaying events list with details in WebView and Booking butt
 ## Install
 
 ```sh
-npm install
+yarn or npm install
 ```
 
 ## Usage
