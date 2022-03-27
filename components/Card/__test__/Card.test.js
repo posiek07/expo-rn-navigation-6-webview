@@ -6,13 +6,13 @@ import data from '../../../test-data/data.json';
 import {render} from 'react-native-testing-library';
 import {exact} from 'prop-types';
 
-it('should render and match snapshot', () => {
+it.skip('should render and match snapshot', () => {
   const event = data.events[0];
   const card = renderer.create(<Card item={event} />).toJSON();
   expect(card).toMatchSnapshot();
 });
 
-it('should render with title and image', async () => {
+it.skip('should render with title and image', async () => {
   const event = data.events[0];
   const {getByText, findByLabelText} = render(<Card item={event} />);
 

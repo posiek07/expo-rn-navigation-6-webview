@@ -1,6 +1,6 @@
 import {useQuery, gql} from '@apollo/client';
 
-const GET_EVENTS = gql`
+export const GET_EVENTS = gql`
   query listEvents {
     listEvents {
       items {
