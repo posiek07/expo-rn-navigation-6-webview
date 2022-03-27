@@ -46,11 +46,10 @@ exports[`should render and match snapshot 1`] = `
       }
     >
       <Image
-        accessibilityLabel="image: Evolving Design Systems"
-        alt="https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43694293%2F200512495655%2F1%2Foriginal.jpg?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=ce2f9f9b42ef9513349a34043ea3001a"
+        accessibilityLabel="image: undefined"
         source={
           Object {
-            "uri": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F43694293%2F200512495655%2F1%2Foriginal.jpg?w=800&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=ce2f9f9b42ef9513349a34043ea3001a",
+            "uri": undefined,
           }
         }
         style={
@@ -91,7 +90,7 @@ exports[`should render and match snapshot 1`] = `
           ]
         }
       >
-        Friday, May 11, 2018 7:00 PM PDT
+        Sunday, March 27, 2022 4:25 PM 
       </Text>
       <Text
         numberOfLines={2}
@@ -104,9 +103,7 @@ exports[`should render and match snapshot 1`] = `
             },
           ]
         }
-      >
-        Evolving Design Systems
-      </Text>
+      />
       <Text
         numberOfLines={1}
         style={
@@ -116,43 +113,7 @@ exports[`should render and match snapshot 1`] = `
             },
           ]
         }
-      >
-        "A design system offers a library of visual style, components, and other concerns documented and released by an individual, team or community as code and design tools so that adopting products can be more efficient and cohesive.” -Nathan Curtis, Founder of EightShapes
-
-As design’s prominence in companies grows, the creation and adoption of design systems have become the norm. Companies old and new, from IBM to Google have all launched their own design systems in the past few years. But the creation of the design system is just the starting point.
-
-How do these large companies keep a design system updated and evolving with the company while continuing to optimize for efficiency and consistency? How does the adoption and challenges of design systems change over time?
-
-Join us in a panel discussion on evolving design systems with designers from Salesforce, Dropbox, Indeed, and Amazon.
-
-Before and after the panel, you'll have the chance to check out some behind-the-scenes peeks of what we've been working on.
-
-All proceeds from the event will be donated back to SF Design Week.
-
-
-
-
-
-Panelists:
-Kim Williams, Director of Experience Design, Indeed
-
-Shahrzad Samadzadeh, Principle Designer, Salesforce
-
-Jina Anne, Senior Design Systems Lead, Amazon Web Services, Special Projects
-
-Ed Chao, Product Designer, Dropbox
-
-Moderated by:
-Elijah Woolery, Director of Design Education, InVision
-
-Schedule
-
-
-
-6:00 - 7:00pm Check-in, Networking & Dinner
-7:00 - 8:15pm Panel + Q&A
-8:15 - 9:00pm Networking, chat with panelists
-      </Text>
+      />
     </View>
   </View>
 </View>
